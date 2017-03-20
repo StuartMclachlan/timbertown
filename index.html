@@ -1,0 +1,128 @@
+<!-- background pattern of some sort?
+ -->
+
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Timbertown Beer &amp; BBQ</title>
+		<meta name="description" content="Timbertown Beer & BBQ">
+    <meta name="author" content="Timbertown Beer & BBQ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+	<header>
+		<nav>
+				<img class="logo" src="images/beer_logo.svg" alt="Timbertown Beer & BBQ" title="Timbertown Beer & BBQ" />
+				<i class="mobile-menu fa fa-bars"></i>
+				<ul>
+					<li><a href="#">Beer</a></li>
+					<li><a href="#">BBQ</a></li>
+					<li><a href="#">Get in touch</a></li>
+				</ul>
+			</nav>
+		<h1>Timbertown</h1>
+		<h2>Beer &amp; BBQ</h2>	
+	</header>
+
+	<section class="section-padding about-us page-container">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum odio eu dignissim suscipit. Donec enim urna, facilisis nec fringilla nec, molestie et velit. Sed eu justo nec tortor feugiat sollicitudin id a mi.</p>
+		<a href="#get-in-touch"><button class="contact-button">Get in touch</button></a>
+	</section>
+
+	<section class="page-container">
+		<div class="photo-grid">
+			<div>
+				<img src="images/grill.jpg" alt="Grill" title="Grill" />
+			</div>
+			<div>
+				<img src="images/wood_chopping.jpg" alt="Wood chopping" title="Wood chopping" />
+			</div>
+			<div>
+				<img src="images/bbq.jpg" alt="BBQ" title="BBQ" />
+			</div>
+			<div>
+				<img src="images/boat.jpg" alt="River boat" title="River boat" />
+			</div>
+		</div>
+	</section>
+
+	<section class="section-padding page-container">
+		<div class="form">
+			<a name="get-in-touch"></a>
+			<h3>Get in touch</h3>
+			<form action="submit.php" method="post">
+
+				<div>
+					<label for="name">Name</label>
+					<input type="text" name="name" size="30" />
+				</div>
+				<div>
+					<label for="email">Email address</label>
+					<input type="text" name="email" size="30" />
+				</div>
+
+				<div>
+					<label for="phone">Phone</label>
+					<input type="tel" name="phone" size="30" />
+				</div>
+
+				<label for="event-type"><h2>I want to</h2></label>
+				<div class="form-radio">
+					<label>
+						<input type="radio" name="event-type" value="join"></input>Join an event
+					</label>
+					<label>
+						<input type="radio" name="event-type" value="create">Create my own</input>
+					</label>
+				</div>
+
+				<div class="join-events">
+					<p>Pick from one of our exciting, upcoming events.</p>
+					<select>
+						<option>&nbsp;&nbsp;Event 1&nbsp;&nbsp;</option>
+						<option>&nbsp;&nbsp;Event 2&nbsp;&nbsp;</option>
+						<option>&nbsp;&nbsp;Event 3&nbsp;&nbsp;</option>
+						<option>&nbsp;&nbsp;Event 4&nbsp;&nbsp;</option>
+						</select>
+				</div>
+
+				<div class="create-events">
+					<p>Pick a date, enter your party size and we'll take it from there!</p>
+					<input type="date" name="event-date" />
+				</div>
+
+				<div class="terms">
+					<label>
+					It's cool for us to email you, right?<input type="checkbox" name="terms" />
+					</label>
+				</div>
+
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</section>
+
+	<footer class="section-padding">
+		<div>
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+		<div class="copyright">Copyright &copy; Timbertown Beer &amp; BBQ 2017</div>
+	</footer>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/script.js"></script>
+
+	</body>
+
+</html>
