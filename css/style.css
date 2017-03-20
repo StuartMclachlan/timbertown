@@ -165,17 +165,9 @@ label {
 	flex-direction: column;
 }
 
-.photo-grid div {
-/*	margin: 5px 5px;*/
-}
-
 .photo-grid img {
 	margin: 0 auto;
-/*	width: 90%;*/
 	width: 100%;
-/*	border: outset white 8px;*/
-/*	box-shadow: 5px 5px 5px #000;*/
-/*	margin: 10px;*/
 }
 
 .form {
@@ -243,13 +235,7 @@ button:hover {
 		justify-content: center;
 	}
 
-	.photo-grid img {
-/*		width: 95%;*/
-		width: 100%;
-	}
-
 	.photo-grid div {
-/*		width: 45%;*/
 		width: 50%;
 	}
 
