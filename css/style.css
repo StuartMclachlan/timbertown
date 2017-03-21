@@ -73,7 +73,7 @@ header {
 	justify-content: center;
 	min-height: 520px;
 	width: 100%;
-	background: #000 url('../images/riverbar.jpg') fixed;
+	background: #000 url('../images/riverbar.jpg') fixed center;
 	background-size: cover;
 }
 
