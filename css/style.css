@@ -215,7 +215,7 @@ iframe {
 	margin-bottom: 30px;
 }
 
-.fa {
+.mobile-menu, .social-buttons {
 	font-size: 50px;
 }
 
@@ -233,6 +233,12 @@ iframe {
 
 .join-events p, .create-events p {
 	padding: 20px 10px;
+}
+
+.terms-alert {
+	display: none;
+	color: tomato;
+	padding: 0;
 }
 
 @media all and (min-width: 600px) {
