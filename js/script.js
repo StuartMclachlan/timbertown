@@ -38,10 +38,25 @@ $(function() {
 
   $('.form-submit').on('click', function() {
  
-    if ($('.terms input').prop('checked') == false)
+    if ($('.terms input').prop('checked') == false) {
+      $('.terms-alert').slideDown(800);
+    }
 
-      alert("Sorry, you've got to accept the terms and conditions");
+    else{
+      $('.terms-alert').slideUp(800);
+    }
+
   })
+
+    // $('.terms').after("<p>Here's the text</p>");
+
+    // })
+
+
+  //     alert("Sorry, you've got to accept the terms and conditions");
+  // })
+
+
 
   // $('.form-submit').on('click', function() {
  
