@@ -73,7 +73,7 @@ header {
 	justify-content: center;
 	min-height: 520px;
 	width: 100%;
-	background: #000 url('../images/riverbar.jpg') fixed center;
+	background: #000 url('../images/riverbar.jpg') fixed;
 	background-size: cover;
 }
 
@@ -152,10 +152,12 @@ button {
 	font-size: 20px;
 	padding: 15px;
 	margin: 20px 0px 40px 0px;
+	transition: all 0.6s ease 0.1s;
 }
 
 button:hover {
 	background-color: #663630;
+	transform: scale(1.2);
 }
 
 p {
