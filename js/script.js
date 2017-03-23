@@ -1,5 +1,7 @@
 $(function() {
    
+// Form functions
+
    $('.form-radio').on('change', 'input', function() {
    
     if($(this).val() === "join"){
@@ -14,6 +16,25 @@ $(function() {
      
    })         
 
+
+  $('form').submit(function(event) {
+    event.preventDefault();
+  })
+
+  $('.form-submit').on('click', function() {
+ 
+    if ($('.terms input').prop('checked') == false) {
+      $('.terms-alert').slideDown(600);
+    }
+
+    else{
+      $('.terms-alert').slideUp(600);
+    }
+
+  })
+
+
+// Smooth scrolling
 
   $('a').on('click', function(event) {
 
@@ -30,46 +51,6 @@ $(function() {
       });
     }
   });
-
-
-  $('form').submit(function(event) {
-    event.preventDefault();
-  })
-
-  $('.form-submit').on('click', function() {
- 
-    if ($('.terms input').prop('checked') == false) {
-      $('.terms-alert').slideDown(800);
-    }
-
-    else{
-      $('.terms-alert').slideUp(800);
-    }
-
-  })
-
-    // $('.terms').after("<p>Here's the text</p>");
-
-    // })
-
-
-  //     alert("Sorry, you've got to accept the terms and conditions");
-  // })
-
-
-
-  // $('.form-submit').on('click', function() {
- 
-  //   if ($('.form-radio input').prop('checked') == false)
-
-  //     alert("Please select whether you want to join or create an event!");
-  // })
-
-  // createelemement <p>
-  // appendclass termswarning
-
-  // else ($('.terms input').prop('checked') == true)
-  //   hide class 'termswarning'
 
 
 });
