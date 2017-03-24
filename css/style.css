@@ -46,9 +46,15 @@ a:hover {
 
 nav {
 	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	background-color: rgba(67, 113, 105, 0.8);
 	position: fixed;
 	top: 0;
@@ -75,9 +81,15 @@ nav li {
 }
 
 header {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	min-height: 520px;
 	background: #000 url('../images/riverbar.jpg') fixed;
 	background-size: cover;
@@ -118,7 +130,9 @@ input {
 }
 
 input:focus {
-	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	    -ms-transform: scale(1.05);
+	        transform: scale(1.05);
 }
 
 select {
@@ -145,7 +159,9 @@ button {
 
 button:hover {
 	background-color: #663630;
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
 }
 
 p {
@@ -160,10 +176,18 @@ iframe {
 
 footer {
 	min-height: 80px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	background-color: #437169;
 }
 
@@ -182,8 +206,12 @@ footer li {
 }
 
 .photo-grid {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	margin: 30px 0px;
 }
 
@@ -193,9 +221,15 @@ footer li {
 }
 
 .two-column {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .form {
@@ -258,9 +292,15 @@ footer li {
 	}
 
 	.photo-grid {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 
 	.photo-grid div {
@@ -277,8 +317,12 @@ footer li {
 @media all and (min-width: 750px) {
 
 	.two-column {
-		flex-direction: row;
-		justify-content: center;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 
 	.form {
