@@ -5,8 +5,7 @@
 		<title>Timbertown Beer &amp; BBQ</title>
 		<meta name="description" content="Timbertown Beer & BBQ">
     <meta name="author" content="Timbertown Beer & BBQ">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="css/reset.css">
     <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -16,20 +15,20 @@
 
 	<header>
 		<nav>
-				<img class="logo" src="images/beer_logo.svg" alt="Timbertown Beer & BBQ" title="Timbertown Beer & BBQ" />
-				<i class="mobile-menu fa fa-bars"></i>
-				<ul>
-					<li><a href="#">Beer</a></li>
-					<li><a href="#">BBQ</a></li>
-					<li><a href="#">Get in touch</a></li>
-				</ul>
-			</nav>
+			<img class="logo" src="images/beer_logo.svg" alt="Timbertown Beer & BBQ" title="Timbertown Beer & BBQ" />
+			<i class="mobile-menu fa fa-bars"></i>
+			<ul>
+				<li><a href="#">Beer</a></li>
+				<li><a href="#">BBQ</a></li>
+				<li><a href="#">Get in touch</a></li>
+			</ul>
+		</nav>
 		<h1>Timbertown</h1>
 		<h2>Beer &amp; BBQ</h2>	
 	</header>
 
-	<section class="section-padding about-us page-container">
-		<p>Timbertown is about the good things in life: beer, BBQs and good old mother nature. We've got enough of each to satisfy everyone, so come and drink with us in the beautiful Forest of Dean.</p>
+	<section class="section-padding page-container">
+		<p>Timbertown is about the good things in life: beer, BBQs and good old mother nature. We've got enough of each to satisfy everyone, so come and drink with us in the deep and dark parts of the Forest of Dean.</p>
 		<a href="#get-in-touch"><button class="contact-button">Get in touch</button></a>
 	</section>
 
@@ -55,13 +54,12 @@
 		<div class="map">
 			<h3>Find us in the forest</h3>
 			<p>We're not the easiest to find, (that's kind of the point). Need a clue? Here's a map.</p>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d79080.6598942961!2d-2.682163662675083!3d51.728085371185365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1489986883672" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d79080.6598942961!2d-2.682163662675083!3d51.728085371185365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1489986883672" width="100%" height="490" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 
 		<div class="form" id="get-in-touch">
 			<h3>Get in touch</h3>
 			<form action="submit.php" method="post">
-
 				<div>
 					<label for="name">Name</label>
 					<input type="text" name="name" size="30" />
@@ -70,12 +68,10 @@
 					<label for="email">Email address</label>
 					<input type="text" name="email" size="30" />
 				</div>
-
 				<div>
 					<label for="phone">Phone</label>
 					<input type="tel" name="phone" size="30" />
 				</div>
-
 				<label for="event-type"><h2>I want to</h2></label>
 				<div class="form-radio">
 					<label>
@@ -85,7 +81,6 @@
 						<input type="radio" name="event-type" value="create">Create my own</input>
 					</label>
 				</div>
-
 				<div class="join-events">
 					<p>Pick from one of our exciting, upcoming events.</p>
 					<select>
@@ -93,21 +88,18 @@
 						<option>&nbsp;&nbsp;An even bigger funner one&nbsp;&nbsp;</option>
 						<option>&nbsp;&nbsp;Another event&nbsp;&nbsp;</option>
 						<option>&nbsp;&nbsp;Is this one even real?&nbsp;&nbsp;</option>
-						</select>
+					</select>
 				</div>
-
 				<div class="create-events">
 					<p>Pick a date, enter your party size and we'll take it from there!</p>
 					<input type="date" name="event-date" />
 				</div>
-
 				<div class="terms">
 					<label>
 					Accept boring terms and conditions<input type="checkbox" name="terms" />
 					</label>
-					<p class="terms-alert">Sorry, you've got to tick the little box above <i class="fa fa-hand-o-up fa-0.5x" aria-hidden="true"></i></p>
+					<p class="terms-alert">Sorry, you've got to tick the little box above <i class="fa fa-hand-o-up fa" aria-hidden="true"></i></p>
 				</div>
-
 				<button class="form-submit" type="submit">Submit</button>
 			</form>
 		</div>
@@ -122,7 +114,9 @@
 				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
-		<div class="copyright">Copyright &copy; Timbertown Beer &amp; BBQ 2017</div>
+		<div>
+			<p>Copyright &copy; Timbertown Beer &amp; BBQ 2017</p>
+		</div>
 	</footer>
 
 	<script src="js/jquery-3.1.1.min.js"></script>
